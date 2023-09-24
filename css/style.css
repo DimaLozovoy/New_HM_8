@@ -1,0 +1,108 @@
+
+#greycol {
+    color: grey;
+}
+div > p:nth-child(1) {
+    color: red;
+}
+h3 + p:nth-child(7) {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+div > h3:first-of-type {
+    color: pink;
+}
+
+.monday {
+    color: aqua;
+    background-color: purple;
+    border: 1px solid aqua;
+    border-radius: 7px;
+    border-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.monday a {
+    color: aqua;
+}
+
+.monday:hover {
+    background-color: #004225;
+    color: #F5F5DC;
+    border: 1px solid #F5F5DC;
+}
+
+.tuesday a:visited {
+    color: blue;
+}
+
+.tuesday {
+    background-color: #3D246C;
+    color: #FFDBC3;
+    border: 1px solid #FFDBC3;
+    border-radius: 7px;
+    border-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tuesday a {
+    color: #FFDBC3;
+}
+
+
+.wednesday {
+    background-color: #F11A7B;
+    color: #FFE5AD;
+    border: 1px solid #FFE5AD;
+    border-radius: 7px;
+    border-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.wednesday a {
+    color: #FFE5AD;
+}
+
+.wednesday a:link {
+    color: blueviolet;
+}
+
+.thursday {
+    background-color: #393E46;
+    color: #00ADB5;
+    border: 1px solid #00ADB5;
+    border-radius: 7px;
+    border-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.thursday a {
+    color: #00ADB5;
+}
+
+.thursday:active {
+    background-color: gold;
+    color: gold;
+}
+
+.friday {
+    background-color: #52057B;
+    color: #E8E8E8;
+    border: 1px solid #E8E8E8;
+    border-radius: 7px;
+    border-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.friday a {
+    color: #E8E8E8;
+}
+
+.friday a:focus {
+    color: red;
+}
